@@ -1,2 +1,2 @@
 # AlgorithmLearning
-using simple demo to learn aldorithm
+using simple demo to learn algorithm
