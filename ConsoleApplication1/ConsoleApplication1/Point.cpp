@@ -8,7 +8,9 @@ Point::Point(int a, int b)
 	this->put_x(a);
 	this->put_y(b);
 }
+Point::Point(){
 
+}
 
 Point::~Point()
 {
