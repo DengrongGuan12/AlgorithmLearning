@@ -24,7 +24,6 @@ void QuickSort::go(){
 		cout << t_nArray[i];
 		cout << ",";
 	}
-	system("pause");
 
 
 }
