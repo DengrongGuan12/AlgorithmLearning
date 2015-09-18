@@ -8,6 +8,7 @@
 #include <stdlib.h>
 #include "QuickSort.h"
 #include "Point.h"
+#include "SelectSort.h"
 using namespace std;
 void test(int);
 void fileRW();
@@ -27,7 +28,17 @@ int _tmain(int argc, _TCHAR* argv[])
 	cout << s << endl;
 	replace(5) = 'x';
 	cout << s << endl;
+
+	int a[] = {10,8,3,7,5,2,1,49,20};
+	SelectSort selectSort;
+	selectSort.sort(a,9);
+	for (int i = 0; i < 9; i++){
+		cout << a[i] << ";";
+	}
+	cout << endl;
 	system("pause");
+
+
 	return 0;
 }
 
