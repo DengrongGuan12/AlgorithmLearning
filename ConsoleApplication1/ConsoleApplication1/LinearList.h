@@ -6,6 +6,7 @@ public:
 	LinearList();
 	~LinearList();
 	virtual int Size()const = 0;
+	virtual int Length()const = 0;
 
 };
 

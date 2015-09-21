@@ -1,12 +1,12 @@
 #include "stdafx.h"
 #include "LinearList.h"
 
-
-LinearList::LinearList()
+template<class T>
+LinearList<T>::LinearList()
 {
 }
 
-
-LinearList::~LinearList()
+template <class T>
+LinearList<T>::~LinearList()
 {
 }
